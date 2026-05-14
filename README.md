@@ -65,12 +65,6 @@ Each output row contains:
 - `justification`: internal rationale + retrieved evidence snippets
 - `request_type`: `product_issue`, `feature_request`, `bug`, or `invalid`
 
-## Team Structure (roles only)
-- **Lead**: architecture & decision system
-- **Backend**: pipeline + CSV processing
-- **Logic**: classification + escalation rules
-- **AI/RAG**: retrieval + response grounding
-
 ## Limitations
 - Ambiguous or multi-intent tickets are escalated.
 - Retrieval quality depends on overlap between ticket language and the corpus.
